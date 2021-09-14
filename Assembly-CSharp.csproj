@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\asset packs\2D Customizable Characters\Characters\Male\Scripts\CharacterSetup.cs" />
-     <Compile Include="Assets\asset packs\2D Customizable Characters\Common\Scripts\SimpleCharacterController.cs" />
+     <Compile Include="Assets\asset pack&apos;s\2D Customizable Character\Characters\Male\Scripts\CharacterSetup.cs" />
+     <Compile Include="Assets\asset pack&apos;s\2D Customizable Character\Common\Scripts\SimpleCharacterController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
