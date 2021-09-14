@@ -131,8 +131,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 466330302157446003, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
-      propertyPath: sceneToLoad
-      value: 0
+      propertyPath: transitionName
+      value: Mountains - 1
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_RootOrder
@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.71
+      value: 37.71
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.29
+      value: 3.77
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -181,6 +181,14 @@ PrefabInstance:
     - target: {fileID: 466330302157446006, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_Name
       value: Area Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.89
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}

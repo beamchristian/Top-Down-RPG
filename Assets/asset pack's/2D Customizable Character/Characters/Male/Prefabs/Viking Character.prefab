@@ -2640,7 +2640,7 @@ GameObject:
   - component: {fileID: 114493376018859822}
   - component: {fileID: 1279676882}
   - component: {fileID: 1279676885}
-  - component: {fileID: 1279676881}
+  - component: {fileID: 3075788240265242432}
   m_Layer: 0
   m_Name: Viking Character
   m_TagString: Untagged
@@ -2768,7 +2768,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.81}
   serializedVersion: 2
   m_Radius: 1.15
---- !u!114 &1279676881
+--- !u!114 &3075788240265242432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2777,16 +2777,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1145420320341278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5ca02f1dd097844b3f5b17ee2a8cfe, type: 3}
+  m_Script: {fileID: 11500000, guid: aa5280fec9cb00b42991051a9d6fcefd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 70
   m_MovementSmoothing: 0.1
   normalizedMovement: 1
-  upObject: {fileID: 1523539936656482}
-  leftObject: {fileID: 1796243120182992}
-  rightObject: {fileID: 1928940991767978}
-  downObject: {fileID: 1554841686751312}
+  upObject: {fileID: 0}
+  leftObject: {fileID: 0}
+  rightObject: {fileID: 0}
+  downObject: {fileID: 0}
+  transitionName: 
 --- !u!1 &1145513719099378
 GameObject:
   m_ObjectHideFlags: 0

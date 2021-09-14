@@ -7,6 +7,7 @@ public class AreaExit : MonoBehaviour
 {
 
     [SerializeField] int sceneToLoad;
+    [SerializeField] string transitionName;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class AreaExit : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Player.instance.transitionName = transitionName;
             SceneManager.LoadScene(sceneToLoad);
         }
     }

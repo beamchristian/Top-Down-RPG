@@ -4,10 +4,10 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
-public class SimpleCharacterController : MonoBehaviour
+public class Player : MonoBehaviour
 {
 
-	public static SimpleCharacterController instance;
+	public static Player instance;
 
 	public float moveSpeed = 70;
 	public float m_MovementSmoothing = 0.1f;
@@ -16,6 +16,8 @@ public class SimpleCharacterController : MonoBehaviour
 	public GameObject leftObject;
 	public GameObject rightObject;
 	public GameObject downObject;
+
+	public string transitionName;
 
 	Rigidbody2D rb;
 	Animator currentAnimator;
