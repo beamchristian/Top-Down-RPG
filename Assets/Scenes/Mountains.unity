@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: transitionName
       value: Mountains - 1
       objectReference: {fileID: 0}
+    - target: {fileID: 466330302157446003, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: transitionAreaName
+      value: Mountains - 1
+      objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -72,7 +72,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 0
-  transitionName: 
+  transitionAreaName: 
+  theAreaEnter: {fileID: 664812613607309471}
 --- !u!1 &6601036681009280457
 GameObject:
   m_ObjectHideFlags: 0

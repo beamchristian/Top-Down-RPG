@@ -7,12 +7,13 @@ public class AreaExit : MonoBehaviour
 {
 
     [SerializeField] int sceneToLoad;
-    [SerializeField] string transitionName;
+    [SerializeField] string transitionAreaName;
+    [SerializeField] AreaEnter theAreaEnter;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        theAreaEnter.transitionAreaName = transitionAreaName;
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class AreaExit : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Player.instance.transitionName = transitionName;
+            Player.instance.transitionName = transitionAreaName;
             SceneManager.LoadScene(sceneToLoad);
         }
     }

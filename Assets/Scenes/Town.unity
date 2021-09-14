@@ -320,6 +320,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453365425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664812613607309471, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+  m_PrefabInstance: {fileID: 1587098394}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1224cae122dacde40a2efccb4a005600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1476915153
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +425,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446003, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: theAreaEnter
+      value: 
+      objectReference: {fileID: 1453365425}
+    - target: {fileID: 466330302157446003, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: transitionName
+      value: Mountains - 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 466330302157446003, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: transitionAreaName
       value: Mountains - 1
       objectReference: {fileID: 0}
     - target: {fileID: 466330302157446004, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
@@ -465,13 +484,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 664812613607309471, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
+      propertyPath: transitionAreaName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.17
+      value: 5.23
       objectReference: {fileID: 0}
     - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.87
+      value: -0.78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
