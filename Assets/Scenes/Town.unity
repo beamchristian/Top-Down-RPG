@@ -433,15 +433,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 664812613607309471, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: transitionAreaName
-      value: 
+      value: Mountains - 1
       objectReference: {fileID: 0}
     - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.23
+      value: 7.16
       objectReference: {fileID: 0}
     - target: {fileID: 8840675440115468595, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.78
+      value: -0.91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9c9eaa9d8fea047b75312f9f1c728a, type: 3}
