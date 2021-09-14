@@ -2638,6 +2638,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4874487409701056}
   - component: {fileID: 114493376018859822}
+  - component: {fileID: 1279676882}
+  - component: {fileID: 1279676885}
+  - component: {fileID: 1279676881}
   m_Layer: 0
   m_Name: Viking Character
   m_TagString: Untagged
@@ -2728,6 +2731,62 @@ MonoBehaviour:
   rightLowerLegEquipmentColor: {r: 0.5647059, g: 0.39607844, b: 0.28235295, a: 1}
   rightFootEquipment: {fileID: 21300380, guid: 7f55fd39ae3f7b7449fa3d2c516cc700, type: 3}
   rightFootEquipmentColor: {r: 0.5647059, g: 0.39607844, b: 0.28235295, a: 1}
+--- !u!50 &1279676882
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145420320341278}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1279676885
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145420320341278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.81}
+  serializedVersion: 2
+  m_Radius: 1.15
+--- !u!114 &1279676881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145420320341278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ca02f1dd097844b3f5b17ee2a8cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 70
+  m_MovementSmoothing: 0.1
+  normalizedMovement: 1
+  upObject: {fileID: 1523539936656482}
+  leftObject: {fileID: 1796243120182992}
+  rightObject: {fileID: 1928940991767978}
+  downObject: {fileID: 1554841686751312}
 --- !u!1 &1145513719099378
 GameObject:
   m_ObjectHideFlags: 0
@@ -11253,7 +11312,7 @@ Animator:
   m_GameObject: {fileID: 1523539936656482}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e206ec47e561c34439be286ec74c3ea2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8ea0815fa59379545b7c41e26d599bcd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12573,7 +12632,7 @@ Animator:
   m_GameObject: {fileID: 1554841686751312}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c6e0b07856ebbc849aa759066cf3b1a2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7a5555edb9960dc4cafe7cf1800af57d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -18597,7 +18656,7 @@ Animator:
   m_GameObject: {fileID: 1796243120182992}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1abfb0042a9b8984ab35a1df89cbef90, type: 2}
+  m_Controller: {fileID: 9100000, guid: b15628a9aebadbd4eb9123edf15bc79f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -21742,7 +21801,7 @@ Animator:
   m_GameObject: {fileID: 1928940991767978}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1abfb0042a9b8984ab35a1df89cbef90, type: 2}
+  m_Controller: {fileID: 9100000, guid: b15628a9aebadbd4eb9123edf15bc79f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
