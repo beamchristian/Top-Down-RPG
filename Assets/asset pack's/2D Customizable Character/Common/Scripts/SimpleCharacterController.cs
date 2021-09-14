@@ -7,6 +7,8 @@ using UnityEngine;
 public class SimpleCharacterController : MonoBehaviour
 {
 
+	public static SimpleCharacterController instance;
+
 	public float moveSpeed = 70;
 	public float m_MovementSmoothing = 0.1f;
 	public bool normalizedMovement = true;
@@ -36,6 +38,16 @@ public class SimpleCharacterController : MonoBehaviour
 
 	void Start()
 	{
+		if(instance != null && instance != this)
+		{
+			Destroy(this.gameObject);
+		}
+		else
+		{
+			instance = this;
+		}
+		
+		DontDestroyOnLoad(gameObject);
 		rb = GetComponent<Rigidbody2D>();
 		upObject.SetActive(false);
 		leftObject.SetActive(false);
